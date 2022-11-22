@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Base - Tailwind CSS Startup Template</title>
+    <title>Run Effective Marketing Campaign for D2C Brands</title>
   <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
   <body
     x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
@@ -22,12 +22,12 @@
   <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
     <div class="vd to/4 tc wf yf">
       <a href="index.html">
-        <img class="om" src="images/logo-light.svg" alt="Logo Light" />
-        <img class="xc nm" src="images/logo-dark.svg" alt="Logo Dark" />
+        <img class="om" src="images/logo.png" alt="Logo Light" />
+        <img class="xc nm" src="images/logo.png" alt="Logo Dark" />
       </a>
 
       <!-- Hamburger Toggle BTN -->
-      <button class="po rc" @click="navigationOpen = !navigationOpen">
+      <!-- <button class="po rc" @click="navigationOpen = !navigationOpen">
         <span class="rc i pf re pd">
           <span class="du-block h q vd yc">
             <span class="rc i r s eh um tg te rd eb ml jl dl" :class="{ 'ue el': !navigationOpen }"></span>
@@ -39,9 +39,9 @@
             <span class="rc eh um tg ml jl qr h s pa vd rd" :class="{ 'sd rr': !navigationOpen }"></span>
           </span>
         </span>
-      </button>
+      </button> -->
       <!-- Hamburger Toggle BTN -->
-    </div>
+    <!-- </div>
 
     <div
       class="vd wo/4 sd qo f ho oo wf yf"
@@ -58,25 +58,25 @@
               @click.prevent="dropdown = !dropdown"
               :class="{ 'mk': page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }"
             >
-              Pages
+              Pages -->
 
-              <svg
+              <!-- <svg
               :class="{ 'wh': dropdown }"
               class="th mm we fd pf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
               </svg>
-            </a>
+            </a> -->
 
             <!-- Dropdown Start -->
-            <ul class="a" :class="{ 'tc': dropdown }">
+            <!-- <ul class="a" :class="{ 'tc': dropdown }">
               <li><a href="blog-grid.html" class="xl" :class="{ 'mk': page === 'blog-grid' }">Blog Grid</a></li>
               <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">Blog Single</a></li>
               <li><a href="signin.html" class="xl" :class="{ 'mk': page === 'signin' }">Sign In</a></li>
               <li><a href="signup.html" class="xl" :class="{ 'mk': page === 'signup' }">Sign Up</a></li>
               <li><a href="404.html" class="xl" :class="{ 'mk': page === '404' }">404</a></li>
-            </ul>
+            </ul> -->
             <!-- Dropdown End -->
-          </li>
+          <!-- </li>
           <li><a href="index.html#support" class="xl">Support</a></li>
         </ul>
       </nav>
@@ -85,12 +85,12 @@
         <div class="pc h io pa ra" :class="navigationOpen ? '!-ud-visible' : 'd'">
           <label class="rc ab i">
             <input type="checkbox" :value="darkMode" @change="darkMode = !darkMode" class="pf vd yc uk h r za ab" />
-            <!-- Icon Sun -->
-            <svg :class="{ 'wn' : page === 'home', 'xh' : page === 'home' && stickyMenu }" class="th om" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <-- Icon Sun -->
+            <!-- <svg :class="{ 'wn' : page === 'home', 'xh' : page === 'home' && stickyMenu }" class="th om" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.0908 18.6363C10.3549 18.6363 8.69 17.9467 7.46249 16.7192C6.23497 15.4916 5.54537 13.8268 5.54537 12.0908C5.54537 10.3549 6.23497 8.69 7.46249 7.46249C8.69 6.23497 10.3549 5.54537 12.0908 5.54537C13.8268 5.54537 15.4916 6.23497 16.7192 7.46249C17.9467 8.69 18.6363 10.3549 18.6363 12.0908C18.6363 13.8268 17.9467 15.4916 16.7192 16.7192C15.4916 17.9467 13.8268 18.6363 12.0908 18.6363ZM12.0908 16.4545C13.2481 16.4545 14.358 15.9947 15.1764 15.1764C15.9947 14.358 16.4545 13.2481 16.4545 12.0908C16.4545 10.9335 15.9947 9.8236 15.1764 9.00526C14.358 8.18692 13.2481 7.72718 12.0908 7.72718C10.9335 7.72718 9.8236 8.18692 9.00526 9.00526C8.18692 9.8236 7.72718 10.9335 7.72718 12.0908C7.72718 13.2481 8.18692 14.358 9.00526 15.1764C9.8236 15.9947 10.9335 16.4545 12.0908 16.4545ZM10.9999 0.0908203H13.1817V3.36355H10.9999V0.0908203ZM10.9999 20.8181H13.1817V24.0908H10.9999V20.8181ZM2.83446 4.377L4.377 2.83446L6.69082 5.14828L5.14828 6.69082L2.83446 4.37809V4.377ZM17.4908 19.0334L19.0334 17.4908L21.3472 19.8046L19.8046 21.3472L17.4908 19.0334ZM19.8046 2.83337L21.3472 4.377L19.0334 6.69082L17.4908 5.14828L19.8046 2.83446V2.83337ZM5.14828 17.4908L6.69082 19.0334L4.377 21.3472L2.83446 19.8046L5.14828 17.4908ZM24.0908 10.9999V13.1817H20.8181V10.9999H24.0908ZM3.36355 10.9999V13.1817H0.0908203V10.9999H3.36355Z" fill=""/>
             </svg>
-            <!-- Icon Sun -->
-            <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
+            <-- Icon Sun -->
+            <!-- <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
           </label>
         </div>
 
@@ -98,8 +98,8 @@
         <a href="signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
       </div>
     </div>
-  </div>
-</header>
+  </div> --> 
+</header> 
 
     <!-- ===== Header End ===== -->
 
@@ -108,10 +108,10 @@
       <section class="gj do ir hj sp jr i pg">
         <!-- Hero Images -->
         <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
-          <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
+          <!-- <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
           <img src="images/shape-02.svg" alt="shape" class="xc 2xl:ud-block h u p va" />
           <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
-          <img src="images/shape-04.svg" alt="shape" class="h q r" />
+          <img src="images/shape-04.svg" alt="shape" class="h q r" /> -->
           <img src="images/hero.png" alt="Woman" class="h q r ua" />
         </div>
 
@@ -119,19 +119,25 @@
         <div class="bb ze ki xn 2xl:ud-px-0">
           <div class="tc _o">
             <div class="animate_left jn/2">
-              <h1 class="fk vj zp or kk wm wb">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
+              <h1 class="fk vj zp or kk wm wb">How to run effective marketing campaigns for festive season as D2C brand? </h1>
               <p class="fq">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.
+                Learn how to learn effective marketing campaigns which drive sales for your D2C Brand from Dr Arjun Vaidya.
+               <br> <br> 
+               🗓️  <b>Date</b>: Friday, 25th Nov
+               <br> 
+               🕒  <b>Time</b>: 4 PM to 5 PM
+               <br> 
+               📹 <b>Location</b>: Zoom
               </p>
 
               <div class="tc tf yo zf mb">
-                <a href="#" class="ek jk lk gh gi hi rg ml il vc _d _l"
-                  >Get Started Now</a
+                <a href="#support" class="ek jk lk gh gi hi rg ml il vc _d _l"
+                  >Register Now</a
                 >
 
-                <span class="tc sf">
+                <!-- <span class="tc sf">
                   <a href="#" class="inline-block ek xj kk wm"> Call us (0123) 456 – 789 </a>
-                  <span class="inline-block">For any question or concern</span>
+                  <span class="inline-block">For any question or concern</span> -->
                 </span>
               </div>
             </div>
@@ -139,19 +145,11 @@
         </div>
       </section>
       <!-- ===== Hero End ===== -->
-
-      <!-- ===== Contact Start ===== -->
-      <section id="support" class="i pg fh rm ji gp uq">
-        <!-- Bg Shapes -->
-        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
-        <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
-        <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
-        <img src="images/shape-12.svg" alt="Shape" class="h p s" />
-        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
-
+       <!-- ===== Testimonials Start ===== -->
+       <section class="hj rp hr">
         <!-- Section Title Start -->
         <div
-          x-data="{ sectionTitle: `Let’s Stay Connected`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
+          x-data="{ sectionTitle: `Speaker`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
     <h2
@@ -166,14 +164,81 @@
         </div>
         <!-- Section Title End -->
 
+        <div class="bb ze ki xn ar">
+          <div class="animate_top jb cq">
+            <!-- Slider main container
+            <div class="swiper testimonial-01">
+              <!-- Additional required wrapper -->
+              <!-- <div class="swiper-wrapper"> --> 
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="i hh rm sg vk xm bi qj">
+                    <!-- Border Shape -->
+                    <span class="rc je md/2 gh xg h q r"></span>
+                    <span class="rc je md/2 mh yg h q p"></span>
+
+                    <div class="tc sf rn tn un zf dp">
+                      <img class="bf" src="images/speaker.jpeg" alt="User" />
+
+                      <div>
+                        <!-- <img src="images/icon-quote.svg" alt="Quote" /> -->
+                        <!-- <p class="ek ik xj _p kc fb">
+                         <b>Arjun Vaidya</b>
+                         <br>
+                         Founder and Ex-CEO at Dr. Vaidya's
+                         <br>
+                         Investor at V3 Ventures
+                        </p> -->
+
+                        <div class="ek xj _p kc fb r">
+                          <div>
+                            <span class="rc">Arjun Vaidya</span>
+                            <span class="rc ek xj kk wm zb">D2C Founder and Investor</span>
+                          </div>
+                          <br>
+                          <img class="rk" src="images/vaidya.png" alt="Brand" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <br> <br> <br> 
+      <!-- ===== Contact Start ===== -->
+      <section id="support" class="i pg fh rm ji gp uq">
+        <!-- Bg Shapes -->
+        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
+        <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
+        <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
+        <img src="images/shape-12.svg" alt="Shape" class="h p s" />
+        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
+
+        <!-- Section Title Start -->
+        <div
+          x-data="{ sectionTitle: `Registration`}"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+
+
+        </div>
+        <!-- Section Title End -->
+<!-- 
         <div class="i va bb ye ki xn wq jb mo">
           <div class="tc uf sn tf rn un zf xl:gap-10">
             <div class="animate_top w-full mn/5 to/3 vk sg hh sm yh rq i pg">
               <!-- Bg Shapes -->
-              <img src="images/shape-03.svg" alt="Shape" class="h la x wd" />
-              <img src="images/shape-06.svg" alt="Shape" class="h la ma ne kf" />
+              <!-- <img src="images/shape-03.svg" alt="Shape" class="h la x wd" />
+              <img src="images/shape-06.svg" alt="Shape" class="h la ma ne kf" />  -->
 
-              <div class="fb">
+              <!-- <div class="fb">
                 <h4 class="wj kk wm cc">Email Address</h4>
                 <p><a href="#">support@startup.com</a></p>
               </div>
@@ -188,9 +253,9 @@
               <div class="fb">
                 <h4 class="wj kk wm cc">Skype Email</h4>
                 <p><a href="#">example@yourmail.com</a></p>
-              </div>
+              </div> -->
 
-              <span class="rc nd rh tm lc fb"></span>
+              <!-- <span class="rc nd rh tm lc fb"></span>
 
               <div>
                 <h4 class="wj kk wm qb">Social Media</h4>
@@ -200,12 +265,12 @@
                       <svg class="th lm ml il" width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M6.83366 11.3752H9.12533L10.042 7.7085H6.83366V5.87516C6.83366 4.931 6.83366 4.04183 8.667 4.04183H10.042V0.96183C9.74316 0.922413 8.61475 0.833496 7.42308 0.833496C4.93433 0.833496 3.16699 2.35241 3.16699 5.14183V7.7085H0.416992V11.3752H3.16699V19.1668H6.83366V11.3752Z"
-                          fill=""
-                        />
-                      </svg>
+                          fill="" -->
+                        <!-- /> -->
+                      <!-- </svg>
                     </a>
-                  </li>
-                  <li>
+                  </li> -->
+                  <!-- <li>
                     <a href="#" class="c tc wf xf ie ld rg ml il tl">
                       <svg class="th lm ml il" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -237,10 +302,10 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
 
             <div class="animate_top w-full nn/5 vo/3 vk sg hh sm yh tq">
-              <form action="https://formbold.com/s/unique_form_id" method="POST">
+              <form class="contact_form" method="post" name="google-sheet">
                 <div class="tc sf yo ap zf ep qb">
                   <div class="vd to/2">
                     <label class="rc ac" for="fullname">Full name</label>
@@ -272,24 +337,24 @@
                       type="text"
                       name="phone"
                       id="phone"
-                      placeholder="+009 3342 3432"
+                      placeholder="+91 12345 67890"
                       class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi"
                     />
                   </div>
 
                   <div class="vd to/2">
-                    <label class="rc ac" for="subject">Subject</label>
+                    <label class="rc ac" for="question">Question to Speaker</label>
                     <input
                       type="text"
-                      for="subject"
-                      id="subject"
-                      placeholder="Type your subject"
+                      for="question"
+                      id="question"
+                      placeholder="Type your Question"
                       class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi"
                     />
                   </div>
                 </div>
 
-                <div class="fb">
+                <!-- <div class="fb">
                   <label class="rc ac" for="message">Message</label>
                   <textarea
                     placeholder="Message"
@@ -298,10 +363,10 @@
                     id="message"
                     class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 ci"
                   ></textarea>
-                </div>
+                </div> -->
 
                 <div class="tc xf">
-                  <button class="vc rg lk gh ml il hi gi _l">Send Message</button>
+                  <button class="vc rg lk gh ml il hi gi _l">Register</button>
                 </div>
               </form>
             </div>
@@ -310,61 +375,7 @@
       </section>
       <!-- ===== Contact End ===== -->
 
-       <!-- ===== Testimonials Start ===== -->
-       <br> <br> <br>
-       <section class="hj rp hr">
-        <!-- Section Title Start -->
-        <div
-          x-data="{ sectionTitle: `Speaker`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
-        >
-          <div class="animate_top bb ze rj ki xn vq">
-    <h2
-            x-text="sectionTitle"
-            class="fk vj pr kk wm on/5 gq/2 bb _b"
-    >
-    </h2>
-    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
 
-
-        </div>
-        <!-- Section Title End -->
-
-        <div class="bb ze ki xn ar">
-          <div class="animate_top jb cq">
-            <!-- Slider main container -->
-            <div class="swiper testimonial-01">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <div class="i hh rm sg vk xm bi qj">
-                    <!-- Border Shape -->
-                    <span class="rc je md/2 gh xg h q r"></span>
-                    <span class="rc je md/2 mh yg h q p"></span>
-
-                    <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/testimonial.png" alt="User" />
-
-                      <div>
-                        <img src="images/icon-quote.svg" alt="Quote" />
-                        <p class="ek ik xj _p kc fb">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor diam, feugiat quis enim sed, ullamcorper semper ligula. Mauris consequat justo volutpat.
-                        </p>
-
-                        <div class="tc yf vf">
-                          <div>
-                            <span class="rc ek xj kk wm zb">Devid Smith</span>
-                            <span class="rc">Founter @democompany</span>
-                          </div>
-
-                          <img class="rk" src="images/brand-light-02.svg" alt="Brand" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <!-- If we need navigation -->
               <!-- <div class="tc wf xf fg jb">
                 <div
@@ -385,19 +396,19 @@
                   </svg>
                 </div>
               </div> -->
-            </div>
+            <!-- </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ===== Testimonials End ===== -->
 
 
       <!-- ===== Small Features Start ===== -->
-      <section id="features">
+      <!-- <section id="features">
         <div class="bb ze ki yn 2xl:ud-px-15.5">
-          <div class="tc uf zo xf ap zf bp mq">
+          <div class="tc uf zo xf ap zf bp mq"> -->
             <!-- Small Features Item -->
-            <div class="animate_top kn to/3 tc cg oq">
+            <!-- <div class="animate_top kn to/3 tc cg oq">
               <div class="tc wf xf cf ae cd rg mh">
                 <img src="images/icon-01.svg" alt="Icon" />
               </div>
@@ -405,10 +416,10 @@
                 <h4 class="ek yj go kk wm xb">24/7 Support</h4>
                 <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Small Features Item -->
-            <div class="animate_top kn to/3 tc cg oq">
+            <!-- <div class="animate_top kn to/3 tc cg oq">
               <div class="tc wf xf cf ae cd rg nh">
                 <img src="images/icon-02.svg" alt="Icon" />
               </div>
@@ -416,10 +427,10 @@
                 <h4 class="ek yj go kk wm xb">Take Ownership</h4>
                 <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Small Features Item -->
-            <div class="animate_top kn to/3 tc cg oq">
+            <!-- <div class="animate_top kn to/3 tc cg oq">
               <div class="tc wf xf cf ae cd rg oh">
                 <img src="images/icon-03.svg" alt="Icon" />
               </div>
@@ -431,7 +442,7 @@
           </div>
         </div>
       </section>
-      <br> <br> <br> <br> 
+      <br> <br> <br> <br>  -->
       <!-- ===== Small Features End ===== -->
 
       <!-- ===== About Start ===== -->
@@ -472,35 +483,35 @@
       <!-- ===== About End ===== -->
 
       <!-- ===== Team Start ===== -->
-      <section class="i pg ji gp uq">
+      <!-- <section class="i pg ji gp uq"> -->
         <!-- Bg Shapes -->
-        <span class="rc h s r vd fd/5 fh rm"></span>
+        <!-- <span class="rc h s r vd fd/5 fh rm"></span>
         <img src="images/shape-08.svg" alt="Shape Bg" class="h q r" />
         <img src="images/shape-09.svg" alt="Shape" class="of h y z/2" />
         <img src="images/shape-10.svg" alt="Shape" class="h _ aa" />
-        <img src="images/shape-11.svg" alt="Shape" class="of h m ba" />
+        <img src="images/shape-11.svg" alt="Shape" class="of h m ba" /> -->
 
         <!-- Section Title Start -->
-        <div
+        <!-- <div
           x-data="{ sectionTitle: `Meet With Our Creative Dedicated Team`, sectionTitleText: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
     <h2
             x-text="sectionTitle"
             class="fk vj pr kk wm on/5 gq/2 bb _b"
-    >
-    </h2>
+    > -->
+    <!-- </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
 </div>
+ -->
 
-
-        </div>
+        <!-- </div> -->
         <!-- Section Title End -->
 
-        <div class="bb ze i va ki xn xq jb jo">
+        <!-- <div class="bb ze i va ki xn xq jb jo">
           <div class="wc qf pn xo gg cp">
             <!-- Team Item -->
-            <div class="animate_top rj">
+            <!-- <div class="animate_top rj">
               <div class="c i pg z-1">
                 <img class="vd" src="images/team-01.png" alt="Team" />
 
@@ -532,15 +543,15 @@
                       </li>
                     </ul>
                   </div>
-                </div>
-              </div>
+                </div> -->
+              <!-- </div> -->
 
-              <h4 class="yj go kk wm ob zb">Olivia Andrium</h4>
+              <!-- <h4 class="yj go kk wm ob zb">Olivia Andrium</h4>
               <p>Product Manager</p>
-            </div>
+            </div> -->
 
             <!-- Team Item -->
-            <div class="animate_top rj">
+            <!-- <div class="animate_top rj">
               <div class="c i pg z-1">
                 <img class="vd" src="images/team-02.png" alt="Team" />
 
@@ -573,14 +584,14 @@
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-              <h4 class="yj go kk wm ob zb">Jemse Kemorun</h4>
+              <!-- <h4 class="yj go kk wm ob zb">Jemse Kemorun</h4>
               <p>Product Designer</p>
-            </div>
+            </div> -->
 
             <!-- Team Item -->
-            <div class="animate_top rj">
+            <!-- <div class="animate_top rj">
               <div class="c i pg z-1">
                 <img class="vd" src="images/team-03.png" alt="Team" />
 
@@ -613,20 +624,20 @@
                     </ul>
                   </div>
                 </div>
-              </div>
-
+              </div> -->
+<!-- 
               <h4 class="yj go kk wm ob zb">Avi Pestarica</h4>
               <p>Web Designer</p>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ===== Team End ===== -->
 
       <!-- ===== Services Start ===== -->
-      <section class="lj tp kr">
+      <!-- <section class="lj tp kr"> -->
         <!-- Section Title Start -->
-        <div
+        <!-- <div
           x-data="{ sectionTitle: `We Offer The Best Quality Service for You`, sectionTitleText: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
@@ -637,25 +648,25 @@
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
 </div>
-
+ -->
 
         </div>
         <!-- Section Title End -->
 
         <div class="bb ze ki xn yq mb en">
-          <div class="wc qf pn xo ng">
+        <div class="wc qf pn xo ng">
             <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-04.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Crafted for Startups</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+              <h4 class="ek zj kk wm nb _b">Ideal for D2C Brands</h4>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p> -->
             </div>
 
             <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-05.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">High-quality Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+              <h4 class="ek zj kk wm nb _b"></h4>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p> -->
             </div>
 
             <!-- Service Item -->
@@ -666,21 +677,21 @@
             </div>
 
             <!-- Service Item -->
-            <div class="animate_top sg oi pi zq ml il am cn _m">
+            <!-- <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-07.svg" alt="Icon" />
               <h4 class="ek zj kk wm nb _b">Speed Optimized</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>
+            </div> -->
 
             <!-- Service Item -->
-            <div class="animate_top sg oi pi zq ml il am cn _m">
+            <!-- <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-05.svg" alt="Icon" />
               <h4 class="ek zj kk wm nb _b">Fully Customizable</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>
+            </div> -->
 
             <!-- Service Item -->
-            <div class="animate_top sg oi pi zq ml il am cn _m">
+            <!-- <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-06.svg" alt="Icon" />
               <h4 class="ek zj kk wm nb _b">Regular Updates</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
@@ -691,16 +702,16 @@
       <!-- ===== Services End ===== -->
 
       <!-- ===== Pricing Table Start ===== -->
-      <section x-data="setup()" class="i pg fh rm ji gp uq">
+      <!-- <section x-data="setup()" class="i pg fh rm ji gp uq">
         <!-- Bg Shapes -->
-        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
+        <!-- <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
         <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
         <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
         <img src="images/shape-12.svg" alt="Shape" class="h p s" />
-        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
+        <img src="images/shape-13.svg" alt="Shape" class="h r q" /> -->
 
         <!-- Section Title Start -->
-        <div
+        <!-- <div
           x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
@@ -711,13 +722,13 @@
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
 </div>
-
+ -->
 
         </div>
         <!-- Section Title End -->
 
         <!-- Pricing switcher -->
-        <div class="tc wf xf jb og">
+        <!-- <div class="tc wf xf jb og">
           <span class="ek kk wm">Bill Monthly</span>
           <button class="i rg gm" x-cloak @click="billPlan == 'monthly' ? billPlan = 'annually' : billPlan = 'monthly'">
             <div class="fe id bl gh rg xk outline-none"></div>
@@ -727,14 +738,14 @@
             ></div>
           </button>
           <span class="ek kk wm">Bill Annually</span>
-        </div>
+        </div> -->
 
         <!-- Pricing Table -->
-        <div class="bb ze i va ki xn yq bc">
+        <!-- <div class="bb ze i va ki xn yq bc">
           <div class="wc qf pn xo jg">
             <template x-for="(plan, i) in plans" x-key="i">
               <!-- Pricing Item -->
-              <div class="animate_top rj sg hh sm vk xm hi nj oj">
+              <!-- <div class="animate_top rj sg hh sm vk xm hi nj oj">
                 <h4 x-text="plan.name" class="wj kk wm fb"></h4>
 
                 <div class="tc wf xf kg cc">
@@ -746,19 +757,19 @@
                   <span x-text="billPlan == 'monthly' ? '/per month' : '/per year'" class="sc ak kk wm"></span>
                 </div>
 
-                <p class="ur dc">No credit card required</p>
+                <p class="ur dc">No credit card required</p> --> 
 
                 <!-- Button -->
-                <a
+                <!-- <a
                   href="#"
                   class="ek rg lk ml il gi ri"
                   :class="plan.name == 'Growth Plan' ? 'gh sl' : 'mh tl'"
                 >
                   Try for free
-                </a>
+                </a> -->
 
                 <!-- Features -->
-                <ul class="tc sf bg ob fb">
+                <!-- <ul class="tc sf bg ob fb">
                   <template x-for="(feature, i) in plan.features" x-key="i">
                     <li x-text="feature"></li>
                   </template>
@@ -768,32 +779,32 @@
               </div>
             </template>
           </div>
-        </div>
-      </section>
+        </div> -->
+      <!-- </section> -->
       <!-- ===== Pricing Table End ===== -->
 
       <!-- ===== Projects Start ===== -->
-      <section class="pg pj vp mr oj wp nr">
-        <!-- Section Title Start -->
+      <!-- <section class="pg pj vp mr oj wp nr">
+        Section Title Start
         <div
           x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
     <h2
             x-text="sectionTitle"
-            class="fk vj pr kk wm on/5 gq/2 bb _b"
-    >
+            class="fk vj pr kk wm on/5 gq/2 bb _b" -->
+    <!-- >
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
+</div> -->
 
 
         </div>
         <!-- Section Title End -->
 
-        <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
+        <!-- <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}"> -->
           <!-- Porject Tab -->
-          <div
+          <!-- <div
             class="projects-tab _e bb tc uf wf xf cg rg hh rm vk xm si ti fc"
           >
             <button
@@ -828,13 +839,13 @@
             >
               Ecommerce
             </button>
-          </div>
+          </div> -->
 
           <!-- Projects item wrapper -->
-          <div class="projects-wrapper tc -ud-mx-5">
+          <!-- <div class="projects-wrapper tc -ud-mx-5">
             <div class="project-sizer"></div>
             <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
+            <!-- <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
                 <img src="images/project-01.png" alt="Project" />
 
@@ -845,18 +856,18 @@
                   <p>Branded Ecommerce</p>
                   <a
                     class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    href="#" -->
+                  
+                    <!-- <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
                     </svg>
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 digital">
+            <!-- <div class="project-item wi fb vd jn/2 to/3 digital">
               <div class="c i pg sg z-1">
                 <img src="images/project-02.png" alt="Project" />
 
@@ -875,10 +886,10 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
+            <!-- <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
                 <img src="images/project-04.png" alt="Project" />
 
@@ -897,11 +908,11 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> --> 
 
             <!-- Project Item -->
-            <div class="project-item wi fb vd vo/3 digital ecommerce">
-              <div class="c i pg sg z-1">
+            <!-- <div class="project-item wi fb vd vo/3 digital ecommerce"> -->
+              <!-- <div class="c i pg sg z-1">
                 <img src="images/project-03.png" alt="Project" />
 
                 <div
@@ -919,15 +930,15 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div>
         </div>
-      </section>
+      </section> -->
       <!-- ===== Projects End ===== -->
 
      
       <!-- ===== Counter Start ===== -->
-      <section class="i pg qh rm ji hp">
+      <!-- <section class="i pg qh rm ji hp">
         <img src="images/shape-11.svg" alt="Shape" class="of h ga ha ke" />
         <img src="images/shape-07.svg" alt="Shape" class="h ia o ae jf" />
         <img src="images/shape-14.svg" alt="Shape" class="h ja ka" />
@@ -952,14 +963,14 @@
               <p class="ek bk aq">Happy Clients</p>
             </div>
           </div>
-        </div>
-      </section>
+        </div> -->
+      <!-- </section> -->
       <!-- ===== Counter End ===== -->
 
       <!-- ===== Clients Start ===== -->
-      <section class="pj vp mr">
+      <!-- <section class="pj vp mr">
         <!-- Section Title Start -->
-        <div
+        <!-- <div
           x-data="{ sectionTitle: `Trusted by Global Brands`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
@@ -969,12 +980,12 @@
     >
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
+</div> --> 
 
 
         </div>
         <!-- Section Title End -->
-
+<!-- 
         <div class="bb ze ah ch pm hj xp ki xn 2xl:ud-px-49 bc">
           <div class="wc rf qn zf cp kq xf wf">
             <a href="#" class="rc animate_top">
@@ -1003,13 +1014,13 @@
             </a>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ===== Clients End ===== -->
 
       <!-- ===== Blog Start ===== -->
-      <section class="ji gp uq">
+      <!-- <section class="ji gp uq">
         <!-- Section Title Start -->
-        <div
+        <!-- <div
           x-data="{ sectionTitle: `Latest Blogs & News`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
@@ -1019,16 +1030,16 @@
     >
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
+</div> -->
 
 
         </div>
         <!-- Section Title End -->
 
-        <div class="bb ye ki xn vq jb jo">
-          <div class="wc qf pn xo zf iq">
+        <!-- <div class="bb ye ki xn vq jb jo">
+          <div class="wc qf pn xo zf iq"> -->
             <!-- Blog Item -->
-            <div class="animate_top sg vk rm xm">
+            <!-- <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
                 <img class="w-full" src="images/blog-01.png" alt="Blog" />
 
@@ -1056,10 +1067,10 @@
                   <a href="blog-single.html">Free advertising for your online business</a>
                 </h4>
               </div>
-            </div>
+            </div> -->
 
             <!-- Blog Item -->
-            <div class="animate_top sg vk rm xm">
+            <!-- <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
                 <img class="w-full" src="images/blog-02.png" alt="Blog" />
 
@@ -1087,10 +1098,10 @@
                   <a href="blog-single.html">9 simple ways to improve your design skills</a>
                 </h4>
               </div>
-            </div>
+            </div> -->
 
             <!-- Blog Item -->
-            <div class="animate_top sg vk rm xm">
+            <!-- <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
                 <img class="w-full" src="images/blog-03.png" alt="Blog" />
 
@@ -1121,32 +1132,32 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ===== Blog End ===== -->
 
       <!-- ===== CTA Start ===== -->
       <section class="i pg gh ji">
-  <!-- Bg Shape -->
-  <img class="h p q" src="images/shape-16.svg" alt="Bg Shape" />
+  <!-- Bg Shape --> -->
+   <img class="h p q" src="images/shape-16.svg" alt="Bg Shape" />
 
   <div class="bb ye i z-10 ki xn dr">
     <div class="tc uf sn tn un gg">
       <div class="animate_left to/2">
         <h2 class="fk vj zp pr lk ac">
-            Join with 5000+ Startups Growing with Base.
+            Learn to run effective marketing campaigns for your Brand
         </h2>
-        <p class="lk">
+        <!-- <p class="lk">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus.
-        </p>
+        </p> -->
       </div>
       <div class="animate_right bf">
-        <a href="#" class="vc ek kk hh rg ol il cm gi hi">
-            Get Started Now
+        <a href="#support" class="vc ek kk hh rg ol il cm gi hi">
+            Register Now
         </a>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
       <!-- ===== CTA End ===== -->
     </main>
@@ -1158,13 +1169,13 @@
       <div class="tc uf ap gg fp">
         <div class="animate_top zd/2 to/4">
           <a href="index.html">
-            <img src="images/logo-light.svg" alt="Logo" class="om" />
-            <img src="images/logo-dark.svg" alt="Logo" class="xc nm" />
+            <img src="images/logo.png" alt="Logo" class="om" />
+            <img src="images/logo.png" alt="Logo" class="xc nm" />
           </a>
+<!-- 
+          <p class="lc fb">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
 
-          <p class="lc fb">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-          <ul class="tc wf cg">
+          <!-- <ul class="tc wf cg">
             <li>
               <a href="#">
                 <svg class="vh ul cl il" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1303,22 +1314,22 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Footer Top -->
 
     <!-- Footer Bottom -->
-    <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
+    <!-- <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
       <div class="animate_top">
         <ul class="tc wf gg">
           <li><a href="#" class="xl">English</a></li>
           <li><a href="#" class="xl">Privacy Policy</a></li>
           <li><a href="#" class="xl">Support</a></li>
         </ul>
-      </div>
+      </div> -->
 
-      <div class="animate_top">
+      <!-- <div class="animate_top">
         <p>&copy; 2025 Base. All rights reserved</p>
-      </div>
+      </div> -->
     </div>
     <!-- Footer Bottom -->
   </div>
@@ -1340,7 +1351,7 @@
 
     <!-- ====== Back To Top End ===== -->
 
-    <script>
+    <!-- <script>
       //  Pricing Table
       const setup = () => {
         return {
@@ -1376,6 +1387,17 @@
           ],
         };
       };
-    </script>
+    </script> -->
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzoUeAVG7LbLaPcyUdIlXJuzEqbtKuej3SMPqQFOwqWX-6mZGR9iYDTjuxxWXnPMm4i/exec'
+      const form = document.forms['google-sheet']
+          
+      form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thank you for Registration"))
+          .catch(error => console.error('Error!', error.message))
+      })</script>
   <script defer src="bundle.js"></script></body>
 </html>
